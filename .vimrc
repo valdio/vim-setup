@@ -15,7 +15,7 @@ set autoread
 
 " With a map leader it's possible to do extra key combinations
 " like <leader>w saves the current file
-let mapleader = ","
+let mapleader = "\<Space>"
 
 " Fast saving
 nmap <leader>w :w!<cr>
@@ -329,7 +329,6 @@ endfunction
 " plugins 
 """"""""""""""""""""""""""""""
 call plug#begin('~/.vim/plugged')
-Plug 'arcticicestudio/nord-vim'
 Plug 'tpope/vim-vinegar' " File explorer
 Plug '/usr/local/opt/fzf'
 Plug 'junegunn/fzf.vim'
@@ -343,9 +342,12 @@ Plug 'dense-analysis/ale'
 Plug 'mrk21/yaml-vim'
 Plug 'preservim/nerdtree'
 Plug 'Valloric/YouCompleteMe', { 'do': './install.py --tern-completer' }
+Plug 'nathanaelkane/vim-indent-guides'
+Plug 'morhetz/gruvbox' "color scheme
+
 call plug#end()
 
-colorscheme nord
+colorscheme gruvbox "apply color scheme -- works together with `set background=dark` DARK MODE
 
 " auto import in go
 let g:go_fmt_command = "goimports"
@@ -375,19 +377,6 @@ filetype plugin indent on
 
 
  map <leader>r :NERDTreeFind<cr>
-
-"Tab mapping 
-"" Go to tab by number
-noremap <leader>1 1gt
-noremap <leader>2 2gt
-noremap <leader>3 3gt
-noremap <leader>4 4gt
-noremap <leader>5 5gt
-noremap <leader>6 6gt
-noremap <leader>7 7gt
-noremap <leader>8 8gt
-noremap <leader>9 9gt
-noremap <leader>0 :tablast<cr>
 
 
 " Search for file and output to fzf:w
