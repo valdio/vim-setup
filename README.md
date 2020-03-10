@@ -20,7 +20,11 @@ vim setup with JS autocomplete
 
 |    Commands    |      Description      |
 |----------------|:---------------------:|
-| `shift+v`   | select line |
+| `v`            | start text select |
+| `shift+v`      | select entire line |
+| `ctrl+v`       | select column |
+| `u`            | undo        |
+| `ctrl+r`       | redo        |
 | `<leader>+f`   | file search in current path |
 | `:Files /optional_path or .`   | file search in current path |
 | `<leader>+r`   | show NerdTree side navigator |
