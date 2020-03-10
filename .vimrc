@@ -376,7 +376,22 @@ syntax on
 filetype plugin indent on
 
 
- map <leader>r :NERDTreeFind<cr>
+map <leader>r :NERDTreeFind<cr>
+
+"MAP NERDTree split navition shortcuts
+"Navigate to next split with 'nn' and <leader>-Up|Down|Right|Left to respectively NerdTree spit
+
+"cycle though all windows - 'n' for next
+map nn <C-w>w
+"takes you right a window
+map <leader><Right> <C-w>l
+"takes you left a window
+map <leader><Left> <C-w>h
+"takes you up a window
+map <leader><Up> <C-w>k
+"takes you down a window
+map <leader><Down> <C-w>j
+
 
 
 " Search for file and output to fzf:w
