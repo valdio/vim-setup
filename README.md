@@ -30,6 +30,7 @@ vim setup with JS autocomplete
 | `<leader>+r`   | show NerdTree side navigator |
 | `i`(on sidebar)| view file on horizontal split |
 | `s`(on sidebar)| view file on vertical split |
+| `t`(on sidebar)| view file new tab |
 |      `nn`      | navigate on next split/window |
 |`<leader><Up>`(Arrow)| navigate to UP split/window |
 |`<leader><Down>`(Arrow)| navigate to DOWN split/window |
