@@ -12,3 +12,20 @@ vim setup with JS autocomplete
 
 
 
+
+## Short commands
+ 
+ **`<leader>`** is set to SPACE
+
+|    Commands    |      Description      |
+|----------------|:---------------------:|
+| `<leader>+f`   | file search in current path |
+| `:Files /optional_path or .`   | file search in current path |
+| `<leader>+r`   | show NerdTree side navigator |
+| `i`(on sidebar)| view file on horizontal split |
+| `s`(on sidebar)| view file on vertical split |
+|      `nn`      | navigate on nest split/window |
+|`<leader><Up>`(Arrow)| navigate to UP split/window |
+|`<leader><Down>`(Arrow)| navigate to DOWN split/window |
+|`<leader><Left>`(Arrow)| navigate to LEFT split/window |
+|`<leader><Right>`(Arrow)| navigate to RIGHT split/window |
