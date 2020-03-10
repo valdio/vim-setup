@@ -10,8 +10,9 @@ vim setup with JS autocomplete
 4. Enter `vim` again and install pluggins using `: PlugInstall`
 5. All DONE  :tada:
 
+## Perks
 
-
+- Setup with scroll support form mouse/touch pad
 
 ## Short commands
  
@@ -19,12 +20,13 @@ vim setup with JS autocomplete
 
 |    Commands    |      Description      |
 |----------------|:---------------------:|
+| `shift+v`   | select line |
 | `<leader>+f`   | file search in current path |
 | `:Files /optional_path or .`   | file search in current path |
 | `<leader>+r`   | show NerdTree side navigator |
 | `i`(on sidebar)| view file on horizontal split |
 | `s`(on sidebar)| view file on vertical split |
-|      `nn`      | navigate on nest split/window |
+|      `nn`      | navigate on next split/window |
 |`<leader><Up>`(Arrow)| navigate to UP split/window |
 |`<leader><Down>`(Arrow)| navigate to DOWN split/window |
 |`<leader><Left>`(Arrow)| navigate to LEFT split/window |
