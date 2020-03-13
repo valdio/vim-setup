@@ -13,6 +13,7 @@ vim setup with JS autocomplete
 ## Perks
 
 - Setup with scroll support form mouse/touch pad
+- Auto linting on save enabled
 
 ## Short commands
  
