@@ -18,9 +18,9 @@ vim setup with JS autocomplete
  
  - **`<leader>`** is set to SPACE
  
- - **+** is just a combination character. Emit it when running commands.
+ - **`+`** is just a combination character. Emit it when running commands.
  
- - **Upercase** letters are considered as keypress **Shift+`letter`**
+ - **Upercase** letters are considered as keypress **`Shift+letter`**
 
 ---------------------------------------------------------------------------------
 
