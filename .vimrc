@@ -371,6 +371,13 @@ set clipboard=unnamed
 """"""""""""""""""""""""""""""
 " custom
 """"""""""""""""""""""""""""""
+"Custom VIM commnands
+
+"quit without saving 
+map <leader>q :q!<cr>
+"quit all without saving
+map <leader>Q :qa!<cr>
+
 
 "NERDTree setup
 syntax on
@@ -398,12 +405,16 @@ map <leader><Down> <C-w>j
 "ale in vim for eslint
 let g:ale_fix_on_save = 1
 let g:ale_fixers = {
-\   'javascript': ['eslint'],
+\   '*': ['remove_trailing_lines', 'trim_whitespace'],
+\   'javascript': ['prettier', 'eslint'],
 \}
 
 "Fix code linting issues
-"In Progress....
-map <D-L> :ALEFix<cr> 
+map <leader>L :ALEFix<CR>
+"Jump to definition
+map <leader>D :ALEGoToDefinition<CR>
+"find refernces
+map <leader>F :ALEFindReferences<CR>
 "---------------------------------------------------
 
 " Search for file and output to fzf:w
