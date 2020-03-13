@@ -383,7 +383,7 @@ map <leader>Q :qa!<cr>
 syntax on
 filetype plugin indent on
 
-
+"open NERD Tree
 map <leader>r :NERDTreeFind<cr>
 
 "MAP NERDTree split navition shortcuts
@@ -408,6 +408,10 @@ let g:ale_fixers = {
 \   '*': ['remove_trailing_lines', 'trim_whitespace'],
 \   'javascript': ['prettier', 'eslint'],
 \}
+let g:ale_echo_msg_error_str = 'E'
+let g:ale_echo_msg_warning_str = 'W'
+let g:ale_echo_msg_format = '[%linter%] %s [%severity%]'
+
 
 "Fix code linting issues
 map <leader>L :ALEFix<CR>
