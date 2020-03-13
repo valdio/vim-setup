@@ -26,6 +26,8 @@ vim setup with JS autocomplete
 | `ctrl+v`       | select column         |
 | `u`            | undo                  |
 | `ctrl+r`       | redo                  |
+| `<leader>q`    | quit current split without saving|
+| `<leader>Q`    | quit ALL without saving|
 | `<leader>+f`   | file search in current path |
 | `:Files /optional_path or .`   | file search in current path |
 | `<leader>+r`   | show NerdTree side navigator |
