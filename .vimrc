@@ -344,6 +344,7 @@ Plug 'preservim/nerdtree'
 Plug 'Valloric/YouCompleteMe', { 'do': './install.py --tern-completer' }
 Plug 'nathanaelkane/vim-indent-guides'
 Plug 'morhetz/gruvbox' "color scheme
+Plug 'vim-scripts/taglist.vim'
 
 call plug#end()
 
@@ -392,7 +393,18 @@ map <leader><Up> <C-w>k
 "takes you down a window
 map <leader><Down> <C-w>j
 
+"---------------------------------------------------
+"--------code formanting----------------------------
+"ale in vim for eslint
+let g:ale_fix_on_save = 1
+let g:ale_fixers = {
+\   'javascript': ['eslint'],
+\}
 
+"Fix code linting issues
+"In Progress....
+map <D-L> :ALEFix<cr> 
+"---------------------------------------------------
 
 " Search for file and output to fzf:w
 noremap <C-p> :Files .<CR>
