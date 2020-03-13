@@ -40,6 +40,7 @@ vim setup with JS autocomplete
 | `<leader>q`    | quit current split without saving|
 | `<leader>Q`    | quit ALL without saving|
 | `<leader>+L`   | auto fix linting issues |
+| `<leader>+F`   | find references of item |
 | `<leader>+f`   | file search in current path |
 | `:Files /optional_path or .`   | file search in current path |
 | `<leader>+r`   | show NerdTree side navigator |
