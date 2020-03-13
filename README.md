@@ -16,7 +16,14 @@ vim setup with JS autocomplete
 
 ## Short commands
  
- **`<leader>`** is set to SPACE
+ - **`<leader>`** is set to SPACE
+ 
+ - **+** is just a combination character. Emit it when running commands.
+ 
+ - **Upercase** letters are considered as keypress **Shift+`letter`**
+
+---------------------------------------------------------------------------------
+
 
 |    Commands    |      Description      |
 |----------------|:---------------------:|
@@ -28,6 +35,7 @@ vim setup with JS autocomplete
 | `ctrl+r`       | redo                  |
 | `<leader>q`    | quit current split without saving|
 | `<leader>Q`    | quit ALL without saving|
+| `<leader>+L`   | auto fix linting issues |
 | `<leader>+f`   | file search in current path |
 | `:Files /optional_path or .`   | file search in current path |
 | `<leader>+r`   | show NerdTree side navigator |
