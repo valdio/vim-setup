@@ -14,6 +14,8 @@ vim setup with JS autocomplete
 
 - Setup with scroll support form mouse/touch pad
 - Auto linting on save enabled
+- Prettier
+- Esling
 
 ## Short commands
  
@@ -34,6 +36,7 @@ vim setup with JS autocomplete
 | `ctrl+v`       | select column         |
 | `u`            | undo                  |
 | `ctrl+r`       | redo                  |
+| `ctrl+O`       | Go BACK, jump back to the previous (older) location|
 | `<leader>q`    | quit current split without saving|
 | `<leader>Q`    | quit ALL without saving|
 | `<leader>+L`   | auto fix linting issues |
